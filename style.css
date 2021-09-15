@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(25, 23, 32);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: white;
+}
+
+h3 {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+p {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+hr {
+  height: 1px;
+  background-color: rgba(233, 250, 150, 0.2);
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.container {
+  width: 375px;
+  height: 812px;
+  background-color: rgb(36, 33, 46);
+  border-radius: 24px;
+  border: 1px solid #303030;
+  padding: 1.5rem 2rem;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.top-bar {
+  position: sticky;
+  top: -1.5rem;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: rgb(36, 33, 46);
+}
+
+.top-bar__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 40%;
+}
+
+.top-bar__close-button {
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+
+.song-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.song-title__img {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.song-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.song-buttons__play-button {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.song-buttons__icon {
+  margin-right: 4px;
+}
+
+.song-buttons__text {
+  color: black;
+}
+
+.playlist__detail {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.playlist__image {
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+
+.playlist__title {
+  margin-bottom: 0.5rem;
+}
