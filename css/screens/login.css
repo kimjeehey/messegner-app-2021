@@ -1,0 +1,129 @@
+.welcome-header {
+  margin: 120px 0 32px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header__img {
+  width: 240px;
+  height: 240px;
+}
+
+.welcome-header__title {
+  margin-bottom: 24px;
+  font-size: 1.5rem;
+}
+
+.welcome-header__text {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 32px;
+}
+
+#login-form input {
+  border: none;
+  padding: 40px 24px 16px 24px;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: var(--primary-5);
+  transition: all 0.4s ease;
+  margin-bottom: 8px;
+}
+
+#login-form input:focus {
+  background-color: var(--primary-10);
+}
+
+#login-form label {
+  position: relative;
+  top: 32px;
+  left: 24px;
+  font-size: 0.875rem;
+  color: var(--primary-100);
+}
+
+#login-form input[type="submit"] {
+  margin-bottom: 16px;
+  background-color: var(--primary-100);
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  width: 100%;
+}
+
+#login-form input[type="password"] {
+  margin-bottom: 24px;
+}
+
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.825rem;
+  margin-top: 8px;
+}
+
+#splash-screen {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: hideSplashScreen 0.8s ease 2.4s forwards;
+}
+
+#splash-screen img {
+  width: 200px;
+  height: 200px;
+  color: var(--primary-100);
+  animation: moveSplashImage 2s ease 0.4s both;
+}
+
+@keyframes hideSplashScreen {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10%);
+  }
+}
+
+@keyframes moveSplashImage {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  10% {
+    opacity: 1;
+    transform: scale(1.2) translateY(-8px);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1) translateY(0px);
+  }
+  90% {
+    opacity: 1;
+    transform: scale(1) translateY(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}

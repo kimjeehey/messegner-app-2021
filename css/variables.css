@@ -1,0 +1,16 @@
+:root {
+  /* color */
+  --yellow-100: #fdf1e2;
+  --yellow-90: rgba(247, 249, 161, 0.9);
+  --salmon-100: #f45e4a;
+  --salmon-20: rgba(244, 94, 74, 0.2);
+
+  --primary-100: #4f58fd;
+  --primary-20: rgba(79, 88, 253, 0.2);
+  --primary-10: rgba(79, 88, 253, 0.1);
+  --primary-5: rgba(79, 88, 253, 0.05);
+  --horizontal-space: 24px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.1);
+  --light-border: 1px solid rgba(0, 0, 0, 0.025);
+  --grey-subtitle: rgba(0, 0, 0, 0.4);
+}

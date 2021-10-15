@@ -1,0 +1,135 @@
+.open-chat,
+.recommended-friends {
+  margin: 0 var(--horizontal-space);
+  padding-top: var(--horizontal-space);
+  border-top: var(--main-border);
+}
+
+.open-chat__header,
+.recommended-friends__header {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--grey-subtitle);
+}
+
+.recommended-friends__text {
+  font-size: 1.125rem;
+  padding: 5rem 0;
+  text-align: center;
+  color: var(--grey-subtitle);
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.open-post {
+  border-bottom: var(--main-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-post:last-child {
+  border-bottom: none;
+}
+
+.open-post__column {
+  padding: var(--horizontal-space) 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.open-post__column h5,
+h6 {
+  margin-bottom: 0.5rem;
+}
+
+.open-post__column h5 {
+  font-size: 1.125rem;
+}
+
+.open-post__column h6 {
+  font-size: 1rem;
+  color: var(--grey-subtitle);
+}
+
+.open-post__member {
+  display: flex;
+  align-items: center;
+}
+
+.open-post__member img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 40%;
+  margin-right: 0.25rem;
+}
+
+.open-post__member .divider {
+  width: 1px;
+  height: 12px;
+  background-color: var(--grey-subtitle);
+  margin: 0 0.25rem;
+}
+
+.open-post__member-count {
+  color: var(--grey-subtitle);
+  font-size: 0.875rem;
+}
+.open-post__member-status {
+  color: hotpink;
+  font-size: 0.875rem;
+}
+
+.open-post__main-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+.open-post__main-image-info {
+  position: absolute;
+  bottom: 32px;
+  right: 8px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+}
+
+.open-post__main-image-info span {
+  color: white;
+  font-size: 0.825rem;
+  font-weight: 300;
+  margin-left: 0.25rem;
+}
+
+.open-post__column:hover .open-post__main-image-info img {
+  animation: heartBeat 0.8s ease infinite;
+  will-change: transform;
+  /* will change helps a brower accelate the pointed animation */
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+    opacity: 1;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+    opacity: 0.6;
+  }
+  100% {
+    color: white;
+    transform: none;
+    opacity: 1;
+  }
+}

@@ -1,146 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Music Playlist</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
+    <!-- link:css shortcut -->
+    <title>Welcome to KakaoTalk</title>
   </head>
   <body>
-    <div class="container">
-      <header class="top-bar">
-        <div class="top-bar__container">
-          <img
-            class="top-bar__close-button"
-            src="https://img.icons8.com/ios/24/FFFFFF/back--v1.png"
-          />
-          <h3>Playlist</h3>
-        </div>
-      </header>
-      <main>
-        <div class="song-title">
-          <img
-            class="song-title__img"
-            src="https://upload.wikimedia.org/wikipedia/en/5/51/Igor_-_Tyler%2C_the_Creator.jpg"
-          />
-          <div class="song-title__caption">
-            <h2 class="song-title__title">EARFQUAKE</h2>
-            <p class="song-title__text">Tyler, The Creator</p>
-          </div>
-        </div>
-        <div class="song-buttons">
-          <!-- like -->
-          <img
-            class="song-buttons_like"
-            src="https://img.icons8.com/ios-glyphs/32/FFFFFF/like--v2.png"
-          />
-          <!-- play -->
-          <button class="song-buttons__play-button">
-            <img
-              class="song-buttons__icon"
-              src="https://img.icons8.com/ios-glyphs/24/000000/play--v1.png"
-            />
-            <h3 class="song-buttons__text">Play</h3>
-          </button>
-          <!-- add -->
-          <img
-            class="song-buttons_add"
-            src="https://img.icons8.com/ios/32/FFFFFF/add--v2.png"
-          />
-        </div>
-        <hr />
-        <div class="playlist">
-          <div class="playlist__detail">
-            <img
-              class="playlist__image"
-              src="https://images.complex.com/complex/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_face,q_auto,w_1280/bebllwzjpsujz9ffwp6s.png"
-            />
-            <div class="playlist__caption">
-              <h3 class="playlist__title">See You Again (feat. Kali Uchis)</h3>
-              <p class="playlist__text">Tyler, The Creator</p>
-            </div>
-          </div>
-          <div class="playlist__detail">
-            <img
-              class="playlist__image"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_lEjVzwYyP0Kbp_ByRMyoRtunAUb3xZxP-A&usqp=CAU"
-            />
-            <div class="playlist__caption">
-              <h3 class="playlist__title">Best Interest</h3>
-              <p class="playlist__text">Tyler, The Creator</p>
-            </div>
-          </div>
-          <div class="playlist__detail">
-            <img
-              class="playlist__image"
-              src="https://upload.wikimedia.org/wikipedia/en/2/26/Cherry_Bomb_Tyler_the_Creator.png"
-            />
-            <div class="playlist__caption">
-              <h3 class="playlist__title">Cherry Bomb</h3>
-              <p class="playlist__text">Tyler, The Creator</p>
-            </div>
-          </div>
-          <div class="playlist__detail">
-            <img
-              class="playlist__image"
-              src="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Wolf_cover3.jpg/220px-Wolf_cover3.jpg"
-            />
-            <div class="playlist__caption">
-              <h3 class="playlist__title">Wolf</h3>
-              <p class="playlist__text">Tyler, The Creator</p>
-            </div>
-          </div>
-          <div class="playlist__detail">
-            <img
-              class="playlist__image"
-              src="https://images.complex.com/complex/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_face,q_auto,w_1280/bebllwzjpsujz9ffwp6s.png"
-            />
-            <div class="playlist__caption">
-              <h3 class="playlist__title">See You Again (feat. Kali Uchis)</h3>
-              <p class="playlist__text">Tyler, The Creator</p>
-            </div>
-          </div>
-          <div class="playlist__detail">
-            <img
-              class="playlist__image"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_lEjVzwYyP0Kbp_ByRMyoRtunAUb3xZxP-A&usqp=CAU"
-            />
-            <div class="playlist__caption">
-              <h3 class="playlist__title">Best Interest</h3>
-              <p class="playlist__text">Tyler, The Creator</p>
-            </div>
-          </div>
-          <div class="playlist__detail">
-            <img
-              class="playlist__image"
-              src="https://upload.wikimedia.org/wikipedia/en/2/26/Cherry_Bomb_Tyler_the_Creator.png"
-            />
-            <div class="playlist__caption">
-              <h3 class="playlist__title">Cherry Bomb</h3>
-              <p class="playlist__text">Tyler, The Creator</p>
-            </div>
-          </div>
-          <div class="playlist__detail">
-            <img
-              class="playlist__image"
-              src="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Wolf_cover3.jpg/220px-Wolf_cover3.jpg"
-            />
-            <div class="playlist__caption">
-              <h3 class="playlist__title">Wolf</h3>
-              <p class="playlist__text">Tyler, The Creator</p>
-            </div>
-          </div>
-        </div>
-      </main>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <img
+          src="https://img.icons8.com/material-outlined/16/000000/high-connection.png"
+        />
+        <img src="https://img.icons8.com/ios-filled/16/000000/wifi--v1.png" />
+        <img
+          class="icon__battery"
+          src="https://img.icons8.com/ios/24/000000/charge-battery--v2.png"
+        />
+      </div>
     </div>
+
+    <header class="welcome-header">
+      <img
+        class="welcome-header__img"
+        src="https://i.pinimg.com/originals/93/d3/b2/93d3b2703e0efbd40c85b38e8537bc75.gif"
+        alt=""
+      />
+      <h1 class="welcome-header__title">Welcome to DoggyTalk</h1>
+      <p class="welcome-header__text">
+        If you have a Doggy Account, <br />
+        log in with your email or phone number.
+      </p>
+    </header>
+
+    <form action="friend-list.html" method="get" id="login-form">
+      <label for="username">Email or phone number</label>
+      <input id="username" name="username" required type="text" />
+
+      <label for="password">Password</label>
+      <input id="password" name="password" required type="password" />
+      <a href="friend-list.html"><input type="submit" value="Log In" /></a>
+      <a href="#">Find Kakao Account or Password</a>
+    </form>
+    <!-- splash -->
+    <div id="splash-screen">
+      <img
+        src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5f3bc588128547.5dccd85783232.gif"
+      />
+    </div>
+    <div id="responsive">
+      <span>
+        Please reduce your screen size or <br />
+        try on your phone.
+      </span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      ;
+      crossorigin="anonymous"
+      ;
+    ></script>
   </body>
 </html>

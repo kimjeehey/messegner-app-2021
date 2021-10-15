@@ -1,0 +1,20 @@
+.suggestions {
+  margin: 0 var(--horizontal-space);
+  padding-top: var(--horizontal-space);
+  border-top: var(--main-border);
+}
+
+.suggestions__header {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--grey-subtitle);
+}
+
+.suggestions-icons span {
+  color: var(--grey-subtitle);
+}
+
+.suggestions-icons img {
+  width: 48px;
+  height: 48px;
+}
