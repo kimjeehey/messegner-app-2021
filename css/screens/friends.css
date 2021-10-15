@@ -1,16 +1,10 @@
-main {
-  background-color: white;
-  border-radius: 32px 32px 0 0;
-  height: 85vh;
-}
-
 .friends-screen .user-component:first-child {
   margin-top: 1rem;
 }
 
 .friends-screen__channel {
   margin-top: 1rem;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
 }
 
 .friends-screen__channel-header {

@@ -9,10 +9,6 @@
   display: flex;
   align-items: center;
 }
-/* 
-.friends-screen__channel .user-component {
-  margin-bottom: 1rem;
-} */
 
 .main-screen .user-component {
   padding: 1.5rem;

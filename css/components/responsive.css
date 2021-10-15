@@ -18,7 +18,7 @@
   line-height: 1.4;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 1200px) {
   #responsive {
     display: none;
   }

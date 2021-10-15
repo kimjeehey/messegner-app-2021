@@ -20,13 +20,18 @@
 @import "screens/chat.css";
 
 body {
+  display: flex;
+  max-width: 600px;
+  flex-direction: column;
+  margin: 0 auto;
   font-family: "DM Sans", sans-serif;
   margin-bottom: 80px;
   color: #2e363e;
   background-color: var(--yellow-100);
 }
 
-/* 
-.main-screen {
-  padding: 0 var(--horizontal-space);
-} */
+main {
+  background-color: white;
+  border-radius: 40px 40px 0 0;
+  height: 85vh;
+}

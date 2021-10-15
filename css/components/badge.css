@@ -1,12 +1,12 @@
 .badge {
-  background-color: tomato;
+  background-color: var(--yellow-100);
   width: 20px;
   height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  color: white;
+  color: var(--primary-100);
   font-weight: 600;
   font-size: 0.675rem;
 }
