@@ -1,4 +1,4 @@
-/* #responsive {
+#responsive {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,8 +18,8 @@
   line-height: 1.4;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 680px) {
   #responsive {
     display: none;
   }
-} */
+}
