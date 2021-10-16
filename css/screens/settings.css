@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   border-bottom: var(--light-border);
-  transition: all 0.1s ease;
+  transition: background-color 0.1s ease;
 }
 
 .settings__setting:hover {
