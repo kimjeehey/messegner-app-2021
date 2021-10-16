@@ -36,7 +36,7 @@
 }
 
 .chat__timestamp {
-  margin: 0.75rem 0;
+  margin: 1rem 0;
   padding: 0.675rem 1rem;
   text-align: center;
   background-color: var(--salmon-100);
@@ -123,7 +123,7 @@
 .message-field input {
   width: 100%;
   border: none;
-  padding: 1.25rem 1rem;
+  padding: 1rem;
   box-sizing: border-box;
   font-size: 1rem;
   transition: all 0.4s ease;
@@ -144,11 +144,11 @@
 
 .message-field__column:last-child > img {
   right: 80px;
-  top: 14px;
+  top: 10px;
 }
 
 .message-field__column:last-child button {
-  width: 73px;
+  width: 64px;
   height: 130%;
   border: none;
   background-color: var(--salmon-100);
