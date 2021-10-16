@@ -31,6 +31,7 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: var(--yellow-100);
+  width: 100vw;
 }
 
 main {
@@ -42,13 +43,6 @@ main {
   width: 100%;
   max-width: 768px;
   height: 110vh;
-}
-
-.wrapper-all {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100vw;
 }
 
 .friends-screen,
