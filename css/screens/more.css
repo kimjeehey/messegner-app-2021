@@ -17,4 +17,6 @@
 .suggestions-icons img {
   width: 48px;
   height: 48px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  object-fit: cover;
 }

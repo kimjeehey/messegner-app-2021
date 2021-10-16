@@ -15,55 +15,57 @@
     <title>Welcome to DoggyTalk</title>
   </head>
   <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span>18:43</span>
+    <div class="wrapper-all">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <img
+            src="https://img.icons8.com/material-outlined/16/000000/high-connection.png"
+          />
+          <img src="https://img.icons8.com/ios-filled/16/000000/wifi--v1.png" />
+          <img
+            class="icon__battery"
+            src="https://img.icons8.com/ios/24/000000/charge-battery--v2.png"
+          />
+        </div>
       </div>
-      <div class="status-bar__column">
+
+      <header class="welcome-header">
         <img
-          src="https://img.icons8.com/material-outlined/16/000000/high-connection.png"
+          class="welcome-header__img"
+          src="https://i.pinimg.com/originals/93/d3/b2/93d3b2703e0efbd40c85b38e8537bc75.gif"
+          alt=""
         />
-        <img src="https://img.icons8.com/ios-filled/16/000000/wifi--v1.png" />
+        <h1 class="welcome-header__title">Welcome to DoggyTalk</h1>
+        <p class="welcome-header__text">
+          If you have a Doggy Account, <br />
+          log in with your email or phone number.
+        </p>
+      </header>
+
+      <form action="friend-list.html" method="get" id="login-form">
+        <label for="username">Email or phone number</label>
+        <input id="username" name="username" required type="text" />
+
+        <label for="password">Password</label>
+        <input id="password" name="password" required type="password" />
+        <a href="friend-list.html"><input type="submit" value="Log In" /></a>
+        <a href="#">Find Kakao Account or Password</a>
+      </form>
+      <!-- splash -->
+      <div id="splash-screen">
         <img
-          class="icon__battery"
-          src="https://img.icons8.com/ios/24/000000/charge-battery--v2.png"
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5f3bc588128547.5dccd85783232.gif"
         />
       </div>
-    </div>
-
-    <header class="welcome-header">
-      <img
-        class="welcome-header__img"
-        src="https://i.pinimg.com/originals/93/d3/b2/93d3b2703e0efbd40c85b38e8537bc75.gif"
-        alt=""
-      />
-      <h1 class="welcome-header__title">Welcome to DoggyTalk</h1>
-      <p class="welcome-header__text">
-        If you have a Doggy Account, <br />
-        log in with your email or phone number.
-      </p>
-    </header>
-
-    <form action="friend-list.html" method="get" id="login-form">
-      <label for="username">Email or phone number</label>
-      <input id="username" name="username" required type="text" />
-
-      <label for="password">Password</label>
-      <input id="password" name="password" required type="password" />
-      <a href="friend-list.html"><input type="submit" value="Log In" /></a>
-      <a href="#">Find Kakao Account or Password</a>
-    </form>
-    <!-- splash -->
-    <div id="splash-screen">
-      <img
-        src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5f3bc588128547.5dccd85783232.gif"
-      />
-    </div>
-    <div id="responsive">
-      <span>
-        Please reduce your screen size or <br />
-        try on your phone.
-      </span>
+      <div id="responsive">
+        <span>
+          Please reduce your screen size or <br />
+          try on your phone.
+        </span>
+      </div>
     </div>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"

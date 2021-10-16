@@ -3,7 +3,7 @@
 }
 
 .friends-screen__channel-header {
-  padding: 0 32px;
+  padding: 0 var(--horizontal-space);
   margin-bottom: 16px;
   display: flex;
   justify-content: space-between;

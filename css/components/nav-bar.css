@@ -2,6 +2,7 @@
   position: fixed;
   bottom: 0px;
   width: 100%;
+  max-width: 768px;
   background-color: var(--primary-100);
   border-radius: 32px 32px 0 0;
   padding: 1.5rem 2rem;

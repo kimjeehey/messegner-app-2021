@@ -1,5 +1,5 @@
 .icon-row {
-  padding: var(--horizontal-space) 0;
+  padding: 24px 16px;
   display: flex;
   justify-content: left;
   box-sizing: border-box;
@@ -16,8 +16,8 @@
 }
 
 .icon-row__icon img {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   margin-bottom: 0.75rem;
   border-radius: 0.5rem;
 }

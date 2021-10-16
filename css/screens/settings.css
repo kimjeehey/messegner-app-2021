@@ -1,5 +1,5 @@
 .settings__setting {
-  padding: var(--horizontal-space);
+  padding: 20px 16px;
   margin: 0 16px;
   border-radius: 16px;
   display: flex;
@@ -23,7 +23,7 @@
 
 .settings-list {
   border-bottom: var(--main-border);
-  padding: var(--horizontal-space) 0;
+  padding: 16px 0;
 }
 
 .settings-list:first-child {
