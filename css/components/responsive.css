@@ -18,10 +18,30 @@
   line-height: 1.4;
 }
 
+
+*/
+
 @media screen and (max-width: 680px) {
   #responsive {
     display: none;
   }
-}
+  .status-bar {
+    display: none;
+  }
 
- */
+  .screen-header {
+    padding: 24px;
+  }
+  .alt-header {
+    padding: 24px 16px;
+  }
+
+  .friends-screen,
+  .more-screen {
+    top: 160px !important;
+  }
+
+  main {
+    top: 72px;
+  }
+}

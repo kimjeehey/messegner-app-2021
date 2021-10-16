@@ -151,7 +151,7 @@
   width: 73px;
   height: 130%;
   border: none;
-  background-color: var(--yellow-100);
+  background-color: var(--salmon-100);
 }
 
 .message-field .message-field__column:first-child,
