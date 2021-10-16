@@ -9,58 +9,61 @@
     <title>Friends-Welcome to KakaoTalk</title>
   </head>
   <body class="friend-list-screen">
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span>18:43</span>
+    <div class="wrapper-top">
+        <div class="status-bar">
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <img
+            src="https://img.icons8.com/material-outlined/16/2e363e/high-connection.png"
+          />
+          <img src="https://img.icons8.com/ios-filled/16/2e363e/wifi--v1.png" />
+          <img
+            class="icon__battery"
+            src="https://img.icons8.com/ios/24/2e363e/charge-battery--v2.png"
+          />
+        </div>
       </div>
-      <div class="status-bar__column">
-        <img
-          src="https://img.icons8.com/material-outlined/16/2e363e/high-connection.png"
-        />
-        <img src="https://img.icons8.com/ios-filled/16/2e363e/wifi--v1.png" />
-        <img
-          class="icon__battery"
-          src="https://img.icons8.com/ios/24/2e363e/charge-battery--v2.png"
-        />
-      </div>
+
+      <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+          <span
+            ><img
+              src="https://img.icons8.com/ios-filled/28/2e363e/search--v2.png"
+          /></span>
+          <span
+            ><img
+              src="https://img.icons8.com/ios-glyphs/28/2e363e/musical-notes.png"
+          /></span>
+          <span>
+            <a href="settings.html">
+              <img
+                src="https://img.icons8.com/material-rounded/28/2e363e/settings.png"
+              />
+            </a>
+          </span>
+        </div>
+      </header>
+
+      <!-- My Profile -->
+      
+      <section class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar user-component__avatar--xl"
+              src="https://images.unsplash.com/photo-1582001961959-aa434d61c708?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fGRvZyUyMHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Emo</h4>
+              <!-- <p class="user-component__subtitle">Woof Woof mate?</p> -->
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+      </section>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
-      <div class="screen-header__icons">
-        <span
-          ><img
-            src="https://img.icons8.com/ios-filled/28/2e363e/search--v2.png"
-        /></span>
-        <span
-          ><img
-            src="https://img.icons8.com/ios-glyphs/28/2e363e/musical-notes.png"
-        /></span>
-        <span>
-          <a href="settings.html">
-            <img
-              src="https://img.icons8.com/material-rounded/28/2e363e/settings.png"
-            />
-          </a>
-        </span>
-      </div>
-    </header>
-
-    <!-- My Profile -->
-    
-    <section class="user-component">
-        <div class="user-component__column">
-          <img
-            class="user-component__avatar user-component__avatar--xl"
-            src="https://images.unsplash.com/photo-1582001961959-aa434d61c708?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fGRvZyUyMHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Emo</h4>
-            <!-- <p class="user-component__subtitle">Woof Woof mate?</p> -->
-          </div>
-        </div>
-        <div class="user-component__column"></div>
-    </section>
     <main class="friends-screen">
       <!-- Channel -->
       <div class="friends-screen__channel">
@@ -98,7 +101,7 @@
           />
         </div>
         <!-- friends list -->
-        <div class="user-component">
+        <a href="chat.html"><div class="user-component">
           <div class="user-component__column">
             <img
               class="user-component__avatar user-component__avatar--sm"
@@ -111,6 +114,7 @@
             </div>
           </div>
         </div>
+      </a>
         <div class="user-component">
           <div class="user-component__column">
             <img
@@ -137,20 +141,23 @@
             </div>
           </div>
         </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              class="user-component__avatar user-component__avatar--sm"
-              src="https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGRvZ3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--400">
-                Frenchy
-              </h4>
+        
+        <a href="chat-second.html">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                class="user-component__avatar user-component__avatar--sm"
+                src="https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGRvZ3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title user-component__title--400">
+                  Frenchy
+                </h4>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </a>
       <div class="user-component">
         <div class="user-component__column">
           <img

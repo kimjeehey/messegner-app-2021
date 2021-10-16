@@ -1,6 +1,7 @@
 :root {
   /* color */
   --yellow-100: #fdf1e2;
+  --yellow-40: rgba(253, 241, 226, 0.4);
   --yellow-90: rgba(247, 249, 161, 0.9);
   --salmon-100: #f45e4a;
   --salmon-20: rgba(244, 94, 74, 0.2);

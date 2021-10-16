@@ -9,46 +9,49 @@
     <title>Chat-Welcome to KakaoTalk</title>
   </head>
   <body id="chat-screen">
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span>18:43</span>
+    <div class="wrapper-top">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <img
+            src="https://img.icons8.com/material-outlined/16/2e363e/high-connection.png"
+          />
+          <img src="https://img.icons8.com/ios-filled/16/2e363e/wifi--v1.png" />
+          <img
+            class="icon__battery"
+            src="https://img.icons8.com/ios/24/2e363e/charge-battery--v2.png"
+          />
+        </div>
       </div>
-      <div class="status-bar__column">
-        <img
-          src="https://img.icons8.com/material-outlined/16/2e363e/high-connection.png"
-        />
-        <img src="https://img.icons8.com/ios-filled/16/2e363e/wifi--v1.png" />
-        <img
-          class="icon__battery"
-          src="https://img.icons8.com/ios/24/2e363e/charge-battery--v2.png"
-        />
-      </div>
+      <header class="alt-header">
+        <div class="alt-header__cloumn">
+          <a href="javascript:history.back()">
+            <img src="https://img.icons8.com/ios-glyphs/28/2e363e/back.png" />
+          </a>
+        </div>
+        <div class="alt-header__cloumn">
+          <h1 class="alt-header__title">Corgi</h1>
+        </div>
+        <div class="alt-header__cloumn">
+          <img
+            src="https://img.icons8.com/ios-filled/28/2e363e/search--v2.png"
+          />
+          <img src="https://img.icons8.com/ios-filled/28/2e363e/menu--v2.png" />
+        </div>
+      </header>
     </div>
-    <header class="alt-header">
-      <div class="alt-header__cloumn">
-        <a href="javascript:history.back()">
-          <img src="https://img.icons8.com/ios-glyphs/28/2e363e/back.png" />
-        </a>
-      </div>
-      <div class="alt-header__cloumn">
-        <h1 class="alt-header__title">Corgi</h1>
-      </div>
-      <div class="alt-header__cloumn">
-        <img src="https://img.icons8.com/ios-filled/28/2e363e/search--v2.png" />
-        <img src="https://img.icons8.com/ios-filled/28/2e363e/menu--v2.png" />
-      </div>
-    </header>
-
     <main class="main-screen main-chat">
       <div class="chat__timestamp">Tuesday, June 30, 2020</div>
 
       <div class="fade-in message-row">
         <img
-          class="user-component__avatar"
+          class="user-component__avatar user-component__avatar--sm"
           src="https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
         />
         <div class="message-row__content">
-          <span class="message__author">Corgi</span>
+          <!-- <span class="message__author">Corgi</span> -->
           <div class="message__info">
             <span class="message__bubble">Woof mate?</span>
             <span class="message__time">21:27</span>
@@ -69,11 +72,11 @@
 
     <form class="message-field">
       <div class="message-field__column">
-        <img src="https://img.icons8.com/ios/28/2e363e/plus-2-math.png" />
+        <img src="https://img.icons8.com/ios/28/ffffff/plus-2-math.png" />
       </div>
       <div class="message-field__column">
         <input type="text" placeholder="Write a message..." />
-        <img src="https://img.icons8.com/ios/24/2e363e/face-generator.png" />
+        <img src="https://img.icons8.com/ios/28/ffffff/face-generator.png" />
         <button>
           <img
             src="https://img.icons8.com/fluency-systems-filled/20/v/up.png"

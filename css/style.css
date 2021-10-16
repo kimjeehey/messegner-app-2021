@@ -19,19 +19,35 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-  /* display: flex;
-  max-width: 600px;
-  flex-direction: column;
-  margin: 0 auto; */
   font-family: "DM Sans", sans-serif;
   margin-bottom: 80px;
   color: #2e363e;
-  background-color: var(--yellow-100);
 }
 
 main {
   background-color: white;
   border-radius: 40px 40px 0 0;
-  height: 85vh;
+  position: relative;
+  top: 110px;
+  padding: 16px 0 80px 0;
+  overflow: hidden;
+}
+
+.friends-screen,
+.more-screen {
+  top: 210px;
+}
+
+.wrapper-top {
+  background-color: var(--yellow-100);
+  position: fixed;
+  top: 0;
+  height: 300px;
+  width: 100%;
+  z-index: 0;
 }

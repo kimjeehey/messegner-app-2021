@@ -1,5 +1,7 @@
 .settings__setting {
   padding: var(--horizontal-space);
+  margin: 0 16px;
+  border-radius: 16px;
   display: flex;
   justify-content: space-between;
   border-bottom: var(--light-border);
@@ -7,7 +9,7 @@
 }
 
 .settings__setting:hover {
-  background-color: #f8f8f8;
+  background-color: var(--primary-5);
 }
 
 .settings__setting:last-child {

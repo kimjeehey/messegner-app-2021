@@ -1,15 +1,10 @@
-.friends-screen .user-component:first-child {
-  margin-top: 1rem;
-}
-
 .friends-screen__channel {
   margin-top: 1rem;
-  padding-top: 1.5rem;
 }
 
 .friends-screen__channel-header {
-  padding: 0 var(--horizontal-space);
-  margin-bottom: 24px;
+  padding: 0 32px;
+  margin-bottom: 16px;
   display: flex;
   justify-content: space-between;
   font-size: 0.875rem;

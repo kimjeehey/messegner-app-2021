@@ -7,21 +7,26 @@
   width: 100%;
   top: 0;
   box-sizing: border-box;
-  background-color: white;
+  background-color: var(--yellow-100);
 }
 
 #chat-screen .alt-header {
-  background-color: var(--yellow-90);
+  background-color: var(--yellow-100);
 }
 
 .alt-header__title {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 600;
   text-align: center;
 }
 
 .alt-header__cloumn {
   width: 33%;
+}
+
+.alt-header__cloumn img {
+  width: 24px;
+  height: 24px;
 }
 
 .alt-header__cloumn:last-child {
