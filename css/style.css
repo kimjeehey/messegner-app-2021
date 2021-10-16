@@ -39,7 +39,7 @@ main {
   position: relative;
   top: 110px;
   padding: 8px 0 80px 0;
-  overflow: scroll;
+  overflow: hidden;
   width: 100%;
   max-width: 768px;
   height: 100vh;
