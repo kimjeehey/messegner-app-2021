@@ -38,11 +38,10 @@ main {
   border-radius: 40px 40px 0 0;
   position: relative;
   top: 110px;
-  padding: 8px 0 96px 0;
   overflow: hidden;
   width: 100%;
   max-width: 768px;
-  height: 100vh;
+  height: 110vh;
 }
 
 .wrapper-all {
