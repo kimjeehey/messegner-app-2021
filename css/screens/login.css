@@ -13,6 +13,7 @@
 .welcome-header__img {
   width: 240px;
   height: 240px;
+  border-radius: 50%;
   animation: loginImageAnimation 0.4s ease both 2.4s;
 }
 
@@ -53,7 +54,6 @@
   font-size: 1rem;
   background-color: var(--primary-5);
   transition: all 0.4s ease;
-  margin-bottom: 8px;
 }
 
 #login-form input:focus {
@@ -64,12 +64,13 @@
   position: relative;
   top: 32px;
   left: 24px;
+  width: 85%;
   font-size: 0.875rem;
   color: var(--primary-100);
 }
 
 #login-form button {
-  margin-bottom: 16px;
+  margin: 16px 0;
   background-color: var(--primary-100);
   color: white;
   cursor: pointer;
@@ -78,10 +79,6 @@
   font-size: 1rem;
   border-radius: 4px;
   width: 100%;
-}
-
-#login-form input[type="password"] {
-  margin-bottom: 24px;
 }
 
 #login-form a {
