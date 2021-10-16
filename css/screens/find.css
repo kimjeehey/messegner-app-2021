@@ -1,8 +1,8 @@
 .open-chat,
 .recommended-friends {
   margin: 0 var(--horizontal-space);
-  padding-top: var(--horizontal-space);
-  border-top: var(--main-border);
+  padding: var(--horizontal-space) 0;
+  border-top: var(--light-border);
 }
 
 .open-chat__header,
@@ -12,20 +12,13 @@
   color: var(--grey-subtitle);
 }
 
-.recommended-friends__text {
-  font-size: 1.125rem;
-  padding: 5rem 0;
-  text-align: center;
-  color: var(--grey-subtitle);
-}
-
 .open-chat__header {
   display: flex;
   justify-content: space-between;
 }
 
 .open-post {
-  border-bottom: var(--main-border);
+  border-bottom: var(--light-border);
   display: flex;
   justify-content: space-between;
   align-items: center;

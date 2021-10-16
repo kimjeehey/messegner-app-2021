@@ -1,7 +1,7 @@
 .suggestions {
   margin: 0 var(--horizontal-space);
   padding-top: var(--horizontal-space);
-  border-top: var(--main-border);
+  border-top: var(--light-border);
 }
 
 .suggestions__header {
