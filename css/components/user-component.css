@@ -140,6 +140,17 @@
   animation: dotAnimation 1s ease both infinite;
 }
 
+.message__bubble .dots {
+  margin-top: 4px;
+  margin-left: -2px;
+  padding: 16px;
+}
+
+.message__bubble .dot {
+  width: 6px;
+  height: 6px;
+}
+
 .user-component__column .dot:nth-child(2) {
   animation-delay: 0.1s;
 }
