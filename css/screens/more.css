@@ -20,3 +20,36 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   object-fit: cover;
 }
+
+.suggestions__now__imgs {
+  display: flex;
+  height: 260px;
+  overflow-x: scroll;
+  border-radius: 16px;
+  margin: var(--horizontal-space);
+}
+
+.suggestions__now__imgs img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-right: 16px;
+}
+
+.suggestions__now__swipe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suggestions__now__swipe-dot {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  background-color: var(--primary-20);
+  border-radius: 50%;
+}
+
+.suggestions__now__swipe-dot:first-child {
+  background-color: var(--primary-100);
+}
