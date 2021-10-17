@@ -1,0 +1,28 @@
+.profile-screen {
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 64px;
+  background-color: tomato;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://i.pinimg.com/564x/48/04/66/480466823d069def8b65e317bc5b07c3.jpg");
+}
+
+.profile-screen__wrapper .user-component {
+  flex-direction: column;
+}
+
+.profile-screen__wrapper .user-component__title {
+  color: white;
+  margin: 1rem 0;
+}
+
+.profile-screen .icon-row {
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.profile-screen .icon-row span {
+  color: white;
+}
