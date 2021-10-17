@@ -5,6 +5,8 @@
   justify-content: flex-end;
   padding-bottom: 64px;
   background-color: tomato;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://i.pinimg.com/564x/48/04/66/480466823d069def8b65e317bc5b07c3.jpg");
 }

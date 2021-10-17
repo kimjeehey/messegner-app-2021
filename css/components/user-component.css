@@ -137,7 +137,7 @@
   border-radius: 50%;
   margin: 0;
   background-color: var(--primary-100);
-  animation: dotAnimation 1s ease both infinite;
+  animation: dotAnimation 0.8s ease both infinite;
 }
 
 .message__bubble .dots {
@@ -160,12 +160,12 @@
 
 @keyframes dotAnimation {
   0% {
-    transform: translateY(0px);
+    transform: translateY(2px);
   }
   50% {
-    transform: translateY(-4px);
+    transform: translateY(-2px);
   }
   100% {
-    transform: translateY(0px);
+    transform: translateY(2px);
   }
 }
