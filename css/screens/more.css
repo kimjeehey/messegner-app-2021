@@ -48,8 +48,22 @@
   display: inline-block;
   background-color: var(--primary-20);
   border-radius: 50%;
+  margin-bottom: var(--horizontal-space);
 }
 
 .suggestions__now__swipe-dot:first-child {
   background-color: var(--primary-100);
+}
+
+.weather__sun {
+  animation: sunAnimation 6s linear infinite;
+}
+
+@keyframes sunAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

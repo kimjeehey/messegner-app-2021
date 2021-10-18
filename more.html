@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- link:css shortcut -->
     <title>More-Welcome to DoggyTalk</title>
   </head>
@@ -71,7 +77,9 @@
         </div>
       </div>
     </div>
+
     <main class="main-screen more-screen">
+      <!-- icons -->
       <div class="icon-row">
         <div class="icon-row__icon">
           <img src="https://img.icons8.com/ios/32/2e363e/calendar-app.png" />
@@ -136,7 +144,7 @@
       <!-- Now -->
       <div class="suggestions">
         <div class="suggestions__header">
-          <span>Doggy Now</span>
+          <span>Doggy Trend</span>
         </div>
       </div>
       <div class="suggestions__now">
@@ -155,6 +163,35 @@
           <span class="suggestions__now__swipe-dot"> </span>
           <span class="suggestions__now__swipe-dot"></span>
           <span class="suggestions__now__swipe-dot"></span>
+        </div>
+      </div>
+
+      <!-- weather -->
+      <div class="suggestions">
+        <div class="suggestions__header">
+          <span>Weather / 서울</span>
+        </div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="
+              user-component__avatar user-component__avatar--xxl
+              weather__sun
+            "
+            src="https://img.icons8.com/plasticine/100/2e363e/sun--v2.png"
+          />
+          <h2>16°</h2>
+          <div class="user-component__text">
+            <h4 class="user-component__title">어제보다 6°C 높아요</h4>
+            <p class="user-component__subtitle">미세먼지 좋음</p>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <img
+            src="https://img.icons8.com/ios-glyphs/20/2e363e/location-off.png"
+          />
         </div>
       </div>
     </main>

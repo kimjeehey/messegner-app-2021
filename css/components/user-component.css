@@ -169,3 +169,9 @@
     transform: translateY(2px);
   }
 }
+
+.user-component__column h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-right: 1rem;
+}
