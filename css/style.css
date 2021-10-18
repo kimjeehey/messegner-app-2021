@@ -51,6 +51,10 @@ main {
   top: 200px;
 }
 
+.more-screen {
+  height: 140vh;
+}
+
 .wrapper-top {
   position: fixed;
   top: 0;
